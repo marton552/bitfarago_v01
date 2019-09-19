@@ -8,7 +8,7 @@
 
 Beküldhető feladatok:
 
-- [ ] ** 1. Csapatneves cucc ** BEN
+- [x] ** 1. Csapatneves cucc ** BEN
 * * Készítsetek egy bemutatkozó HTML dokumentumot, amelyben megjelenik a csapat neve, az iskolájának neve, a felkészítő tanár neve, valamint külön fényképek minden csapattagól, amik felett a nevek is megjelennek. A honlapon jelenjen meg az is, hogy mikor készítettétek el a feladatot (dátum). * *
 
 - [ ] ** 2. LIbreoffice ** BEN
