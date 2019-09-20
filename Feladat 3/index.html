@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta charset="utf8" />
+    <script src="script.js" charset="utf-8"></script>
+    <title>3. Feladat - Bajszos aki nem tud programozni</title>
+
+    <style>
+        #cont {
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+            height:500px;
+            margin:0 auto;
+            position:absolute;
+            left:50%;
+            top:50%;
+            margin-left:-50%;
+            margin-top:-250px;
+        }
+
+        #ido {
+            font-size: 100px;
+            font-family: monospace;
+        }
+
+        p {margin: 0; padding: 0;}
+    </style>
+</head>
+<body onload="load();">
+    <div id="cont">
+        <h1>3. feladat</h1>
+        <p>Jelenlegi dátum:</p>
+        <p id='ido'></p>
+        <button onclick='updateDateText();'>Idő frissítése</button>
+    </div>
+</body>
+</html>
