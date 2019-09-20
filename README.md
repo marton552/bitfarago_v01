@@ -46,7 +46,7 @@ Beküldhető feladatok:
 - [ ] ** 11. Osztók ** H.MAR
 * * Készítsetek egy programot, amely bekér egy számot, majd megszámolja hogy az adott számnak mennyi osztója van (csak a pozitívak érdekesek). Például a 10-nek 4 van: 1, 2, 5, 10. * *
 
-- [x] ** 12. Tizenöt elemű tömb ** H.MAR #####(CSS kell)
+- [x] ** 12. Tizenöt elemű tömb ** H.MAR **(CSS kell)**
 * * Készítsetek egy programot, amely egy 15 elemű tömböt feltölt véletlen egész számokkal, 0 és 1000 között. A generálás után jelenítsétek meg a generált számokat, valamint számoljátok meg hogy a számok közül mennyi osztható hárommal. * *
 
 - [ ] ** 13. Számolás egész számokkal ** P.MAR
