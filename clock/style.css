@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+#clock{
+    text-align: center;
+    color: red;
+    font-size: 70px;
+}
+#ora{
+    width: 50px;
+    height: 60px;
+    font-size: 40px;
+}
+#perc{
+    width: 50px;
+    height: 60px;
+    font-size: 40px;
+}
+#angol{
+    width: 180px;
+    height: 60px;
+    font-size: 30px; 
+}
+#settime{
+    width: 180px;
+    height: 60px;
+    font-size: 25px; 
+}
+.tick{
+    width: 100px;
+    position: relative;
+}
+
+#egy{
+    left: -380px;
+    top: 60px;
+    opacity: 0.3;
+}
+#ketto{
+    left: -497.5px;
+    top: 340px;
+    opacity: 0.3;
+}
+#harom{
+    transform:  rotate(90deg);
+    left: -480px;
+    top: -80px;
+    opacity: 0.3;
+}
+#negy{
+    transform:  rotate(90deg);
+    left: -595px;
+    top: 200px;
+    opacity: 0.3;
+}
+#ot{
+    transform:  rotate(90deg);
+    left: -710px;
+    top: 480px;
+    opacity: 0.3;
+}
+#hat{
+    left: -690px;
+    top: 60px;
+}
+#het{
+    left: -810px;
+    top: 340px;
+}
+
+
+#egy1{
+    left: 20px;
+    top: -210px;
+    opacity: 0.3;
+}
+#ketto1{
+    left: -97.5px;
+    top: 70px;
+    opacity: 0.3;
+}
+#harom1{
+    transform:  rotate(90deg);
+    left: -80px;
+    top: -350px;
+    opacity: 0.3;
+}
+#negy1{
+    transform:  rotate(90deg);
+    left: -195px;
+    top: -70px;
+    opacity: 0.3;
+}
+#ot1{
+    transform:  rotate(90deg);
+    left: -310px;
+    top: 210px;
+    opacity: 0.3;
+}
+#hat1{
+    left: -290px;
+    top: -210px;
+}
+#het1{
+    left: -410px;
+    top: 70px;
+}
