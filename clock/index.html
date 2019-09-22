@@ -1,38 +1,126 @@
 <!DOCTYPE HTML>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <title>Cím</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+        var nope = 0.3;
+        var jap = 1;
+
+        function ifbellow10(h) {
+            if (h === "ora") {
+                var ora = document.getElementById("ora").value;
+                if (ora.length < 2) {
+                    document.getElementById("ora").value = "0" + ora;
+                }
+                if (ora * 1 > 24) {
+                    document.getElementById("ora").value = 00;
+                }
+            } else {
+                var ora = document.getElementById("perc").value;
+                if (ora.length < 2) {
+                    document.getElementById("perc").value = "0" + ora;
+                }
+                if (ora * 1 > 60) {
+                    document.getElementById("perc").value = 00;
+                }
+            }
+        }
+
+        function timeenglish() {
+            var hour1 = document.getElementById("ora").value.charAt(0);
+            var hour2 = document.getElementById("ora").value.charAt(1);
+
+            var perc1 = document.getElementById("perc").value.charAt(0);
+            var perc2 = document.getElementById("perc").value.charAt(1);
+
+            if (hour1 === "0") {
+                set0(0)
+            } else if (hour1 === "1") {
+                set1(0)
+            }
+
+
+        }
+
+        function set0(zero) {
+            document.getElementById("egy" + zero).style.opacity = jap;
+            document.getElementById("ketto" + zero).style.opacity = jap;
+            document.getElementById("harom" + zero).style.opacity = jap;
+            document.getElementById("negy" + zero).style.opacity = nope;
+            document.getElementById("ot" + zero).style.opacity = jap;
+            document.getElementById("hat" + zero).style.opacity = jap;
+            document.getElementById("het" + zero).style.opacity = jap;
+        }
+
+        function set1(zero) {
+            document.getElementById("egy" + zero).style.opacity = nope;
+            document.getElementById("ketto" + zero).style.opacity = nope;
+            document.getElementById("harom" + zero).style.opacity = nope;
+            document.getElementById("negy" + zero).style.opacity = nope;
+            document.getElementById("ot" + zero).style.opacity = nope;
+            document.getElementById("hat" + zero).style.opacity = jap;
+            document.getElementById("het" + zero).style.opacity = jap;
+        }
+    </script>
 </head>
+
 <body>
     <div id=clock>
         Adjon meg egy Magyar időt: <br>
-        <input type="text" id="ora">:<input type="text" id="perc"><br>
-        <button id="angol">Angol kiírás</button>
+        <input type="number" id="ora" min="0" max="24" value="asd" onchange="ifbellow10('ora')" ;>:<input type="number" id="perc" min="0" max="59" value="asd" onchange="ifbellow10('perc')" ;><br>
+        <button id="angol" onclick="timeenglish()">Angol kiírás</button>
         <button id="settime">Jelenlegi idő</button>
         <div>
-                <img class="tick" id="egy" src="stick.png">
-                <img class="tick" id="ketto" src="stick.png">
-                <img class="tick" id="harom" src="stick.png">
-                <img class="tick" id="negy" src="stick.png">
-                <img class="tick" id="ot" src="stick.png">
-                <img class="tick" id="hat" src="stick.png">
-                <img class="tick" id="het" src="stick.png">
+            <img class="tick" id="egy0" src="stick.png">
+            <img class="tick" id="ketto0" src="stick.png">
+            <img class="tick" id="harom0" src="stick.png">
+            <img class="tick" id="negy0" src="stick.png">
+            <img class="tick" id="ot0" src="stick.png">
+            <img class="tick" id="hat0" src="stick.png">
+            <img class="tick" id="het0" src="stick.png">
 
         </div>
         <div>
-                <img class="tick" id="egy1" src="stick.png">
-                <img class="tick" id="ketto1" src="stick.png">
-                <img class="tick" id="harom1" src="stick.png">
-                <img class="tick" id="negy1" src="stick.png">
-                <img class="tick" id="ot1" src="stick.png">
-                <img class="tick" id="hat1" src="stick.png">
-                <img class="tick" id="het1" src="stick.png">
+            <img class="tick" id="egy1" src="stick.png">
+            <img class="tick" id="ketto1" src="stick.png">
+            <img class="tick" id="harom1" src="stick.png">
+            <img class="tick" id="negy1" src="stick.png">
+            <img class="tick" id="ot1" src="stick.png">
+            <img class="tick" id="hat1" src="stick.png">
+            <img class="tick" id="het1" src="stick.png">
+        </div>
+        <div>
+            <img id="potty" src="dot.png">
+            <img id="potty1" src="dot.png">
+        </div>
+        <div>
+            <img class="tick" id="egy2" src="stick.png">
+            <img class="tick" id="ketto2" src="stick.png">
+            <img class="tick" id="harom2" src="stick.png">
+            <img class="tick" id="negy2" src="stick.png">
+            <img class="tick" id="ot2" src="stick.png">
+            <img class="tick" id="hat2" src="stick.png">
+            <img class="tick" id="het2" src="stick.png">
+        </div>
+        <div>
+            <img class="tick" id="egy3" src="stick.png">
+            <img class="tick" id="ketto3" src="stick.png">
+            <img class="tick" id="harom3" src="stick.png">
+            <img class="tick" id="negy3" src="stick.png">
+            <img class="tick" id="ot3" src="stick.png">
+            <img class="tick" id="hat3" src="stick.png">
+            <img class="tick" id="het3" src="stick.png">
+        </div>
+        <div id=ampm>
+            AM
         </div>
     </div>
     <div>
 
     </div>
 </body>
+
 </html>

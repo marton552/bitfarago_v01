@@ -1,107 +1,239 @@
-body{
+body {
     background-color: black;
 }
-#clock{
+
+#clock {
     text-align: center;
     color: red;
     font-size: 70px;
 }
-#ora{
-    width: 50px;
+
+#ora {
+    width: 70px;
     height: 60px;
     font-size: 40px;
 }
-#perc{
-    width: 50px;
+
+#perc {
+    width: 70px;
     height: 60px;
     font-size: 40px;
 }
-#angol{
+
+#angol {
     width: 180px;
     height: 60px;
-    font-size: 30px; 
+    font-size: 30px;
 }
-#settime{
+
+#settime {
     width: 180px;
     height: 60px;
-    font-size: 25px; 
+    font-size: 25px;
 }
-.tick{
+
+.tick {
     width: 100px;
     position: relative;
 }
 
-#egy{
+#egy0 {
     left: -380px;
     top: 60px;
     opacity: 0.3;
 }
-#ketto{
+
+#ketto0 {
     left: -497.5px;
     top: 340px;
     opacity: 0.3;
 }
-#harom{
-    transform:  rotate(90deg);
+
+#harom0 {
+    transform: rotate(90deg);
     left: -480px;
     top: -80px;
     opacity: 0.3;
 }
-#negy{
-    transform:  rotate(90deg);
+
+#negy0 {
+    transform: rotate(90deg);
     left: -595px;
     top: 200px;
     opacity: 0.3;
 }
-#ot{
-    transform:  rotate(90deg);
+
+#ot0 {
+    transform: rotate(90deg);
     left: -710px;
     top: 480px;
     opacity: 0.3;
 }
-#hat{
+
+#hat0 {
     left: -690px;
     top: 60px;
+    opacity: 0.3;
 }
-#het{
+
+#het0 {
     left: -810px;
     top: 340px;
+    opacity: 0.3;
 }
 
-
-#egy1{
+#egy1 {
     left: 20px;
     top: -210px;
     opacity: 0.3;
 }
-#ketto1{
+
+#ketto1 {
     left: -97.5px;
     top: 70px;
     opacity: 0.3;
 }
-#harom1{
-    transform:  rotate(90deg);
+
+#harom1 {
+    transform: rotate(90deg);
     left: -80px;
     top: -350px;
     opacity: 0.3;
 }
-#negy1{
-    transform:  rotate(90deg);
+
+#negy1 {
+    transform: rotate(90deg);
     left: -195px;
     top: -70px;
     opacity: 0.3;
 }
-#ot1{
-    transform:  rotate(90deg);
+
+#ot1 {
+    transform: rotate(90deg);
     left: -310px;
     top: 210px;
     opacity: 0.3;
 }
-#hat1{
+
+#hat1 {
     left: -290px;
     top: -210px;
+    opacity: 0.3;
 }
-#het1{
+
+#het1 {
     left: -410px;
     top: 70px;
+    opacity: 0.3;
+}
+
+#potty {
+    position: relative;
+    width: 50px;
+    left: 50px;
+    top: -350px;
+}
+
+#potty1 {
+    position: relative;
+    width: 50px;
+    left: -20px;
+    top: -150px;
+}
+
+#egy2 {
+    left: 440px;
+    top: -570px;
+    opacity: 0.3;
+}
+
+#ketto2 {
+    left: 320px;
+    top: -290px;
+    opacity: 0.3;
+}
+
+#harom2 {
+    transform: rotate(90deg);
+    left: 340px;
+    top: -710px;
+    opacity: 0.3;
+}
+
+#negy2 {
+    transform: rotate(90deg);
+    left: 225px;
+    top: -430px;
+    opacity: 0.3;
+}
+
+#ot2 {
+    transform: rotate(90deg);
+    left: 110px;
+    top: -150px;
+    opacity: 0.3;
+}
+
+#hat2 {
+    left: 130px;
+    top: -570px;
+    opacity: 0.3;
+}
+
+#het2 {
+    left: 10px;
+    top: -290px;
+    opacity: 0.3;
+}
+
+#egy3 {
+    left: 820px;
+    top: -840px;
+    opacity: 0.3;
+}
+
+#ketto3 {
+    left: 700px;
+    top: -570px;
+    opacity: 0.3;
+}
+
+#harom3 {
+    transform: rotate(90deg);
+    left: 720px;
+    top: -980px;
+    opacity: 0.3;
+}
+
+#negy3 {
+    transform: rotate(90deg);
+    left: 605px;
+    top: -705px;
+    opacity: 0.3;
+}
+
+#ot3 {
+    transform: rotate(90deg);
+    left: 480px;
+    top: -430px;
+    opacity: 0.3;
+}
+
+#hat3 {
+    left: 510px;
+    top: -840px;
+    opacity: 0.3;
+}
+
+#het3 {
+    left: 390px;
+    top: -570px;
+    opacity: 0.3;
+}
+
+#ampm {
+    position: relative;
+    left: 830px;
+    top: -970px;
+    font-family: 'Courier New', Courier, monospace;
 }
