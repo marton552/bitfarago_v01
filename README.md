@@ -33,14 +33,14 @@ Beküldhető feladatok:
 - [ ] ** 8. Fizikai labda dobálás ** P.MAR
 * * Egy egyszerűsített fizikai rendszerben a testekre csak a gravitáció hat, melynek mértéke 9.81 m/s2. Egy ilyen rendszerben egy eldobott labda röppályálya könnyen modellezhető. Készítsetek egy programot, ami bekéri a labda eldobását jelző ferde hajtás erősségét (v0, pozitív szám) és szögét (α, 0 és 90 fok között), és kiszámolja a dobás maximális magasságát, illetve távolságát. * *
 
-- [ ] ** 9. Angol óra ** P.MAR
+- [x] ** 9. Angol óra ** P.MAR
 * * Készítsetek egy oldal, ami bekér egy időpontot (óra, perc) 24 órás formátumban, és megjeleníti azt 12 órás angol formában (pl. 09:30 AM vagy 10:08 PM). Milyen szabályok vannak:
     - Az AM a délelőtt, a PM a délután.
     - Az angloknál a 12 órás leírásban nincsen 0 óra, hanem erre a 12-t használják. Tehát ami a 24 órás órán 00:01, az náluk 12:01 AM, és ami 12:34 az 12:34 PM.
     - Hogy az éjfél és a dél közül melyik az AM és melyik a PM, azt ők sem tudják biztosan, ezért inkább kerülik: "12 noon" a dél, és "12 midnight" az éjfél.
  * *
  
-- [ ] ** 10. Legkisebb ** P.MAR
+- [x] ** 10. Legkisebb ** P.MAR
 * * Készítsetek egy programot, amely bekér 4 számot, és kiírja hogy melyik a legkisebb. * *
 
 - [ ] ** 11. Osztók ** H.MAR
@@ -49,7 +49,7 @@ Beküldhető feladatok:
 - [x] ** 12. Tizenöt elemű tömb ** H.MAR **(CSS kell)**
 * * Készítsetek egy programot, amely egy 15 elemű tömböt feltölt véletlen egész számokkal, 0 és 1000 között. A generálás után jelenítsétek meg a generált számokat, valamint számoljátok meg hogy a számok közül mennyi osztható hárommal. * *
 
-- [ ] ** 13. Számolás egész számokkal ** P.MAR
+- [x] ** 13. Számolás egész számokkal ** P.MAR
 * * Készítsetek egy oldalt, ami pozitív egész számokat kér be. A bekérés folyamatosan tartsa számon az addig beírt számok összegét, és akkor álljon le, ha az összeg elérte az 1000-t. * *
 
 - [ ] ** 14. Számjegyek összeadása ** P.MAR
