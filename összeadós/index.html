@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Számoljunk 1000-ig!</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+        function add() {
+            var val = document.getElementById("szamok").value * 1;
+            var num = document.getElementById("count").innerHTML * 1;
+            var abc = 0;
+            document.getElementById("plus").innerHTML += "<div id='ker" + num + "' onclick='del(" + num + ")' class='keret'> <span id='lol" + num + "' >" + val + "</span><span class='xx'>X</span></div>";
+            for (i = 0; i <= num; i++) {
+                if (document.getElementById("ker" + i).style.display !== "none") {
+                    abc += document.getElementById("lol" + i).innerHTML * 1;
+                }
+
+            }
+            document.getElementById("howmany").innerHTML = abc;
+            document.getElementById("toltelek").style.width = abc / 10 + "vw";
+
+            document.getElementById("count").innerHTML = num + 1;
+            document.getElementById("szamok").value = "";
+
+            if (abc > 1000) {
+                var r = confirm("Elérte az 1000-et! Ha az Ok-ra kattint akkor a googleba rákeres arra a számra ami az összeg lett. Ha nem szeretné nyomjon a Mégse-re.");
+                if (r == true) {
+                    var query = abc;
+                    var url = 'http://www.google.com/search?q=' + query;
+                    window.open(url, '_blank');
+                }
+                location.reload();
+
+
+            }
+        }
+
+
+        function del(szam) {
+            document.getElementById("ker" + szam).style.display = "none";
+            var abc = document.getElementById("howmany").innerHTML * 1;
+            abc -= document.getElementById("lol" + szam).innerHTML * 1;
+            document.getElementById("howmany").innerHTML = abc;
+
+            document.getElementById("toltelek").style.width = abc / 10 + "vw";
+        }
+    </script>
+</head>
+
+<body>
+    <div id="center">
+        <h1>Írjon be számokat!</h1>
+        <div>A sáv jelzi hogy mennyit kell még beírni 1000-ig. Alul gyűjti a számokat amiből törölni is tud, az X-re kattintva.</div>
+        <br><input type="number" value="" id="szamok"><br>
+        <button onclick="add();">Küldés</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="howmany">0</div>
+    <div id="sav">
+        <div id="toltelek"></div>
+    </div>
+    <br>
+    <div id="plus"></div>
+    <div id="count">0</div>
+</body>
+
+</html>
