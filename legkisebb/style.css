@@ -1,0 +1,58 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+.egy {
+    width: 20vw;
+    height: 5vh;
+    font-size: 5vh;
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+#a {
+    width: 5vw;
+    height: 20vh;
+    background-color: red;
+    position: absolute;
+    left: 15vw;
+    font-size: 1vw;
+    visibility: hidden;
+}
+
+#b {
+    width: 5vw;
+    height: 20vh;
+    background-color: red;
+    position: absolute;
+    left: 35vw;
+    font-size: 1vw;
+    visibility: hidden;
+}
+
+#c {
+    width: 5vw;
+    height: 10vh;
+    background-color: red;
+    position: absolute;
+    left: 55vw;
+    font-size: 1vw;
+    visibility: hidden;
+}
+
+#d {
+    width: 5vw;
+    height: 20vh;
+    background-color: red;
+    position: absolute;
+    left: 75vw;
+    font-size: 1vw;
+    visibility: hidden;
+}
