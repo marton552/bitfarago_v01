@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>PIN-kód</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+        function codeeeing() {
+            var all_line = document.getElementById("szam").value + "a";;
+            var pin = 0;
+            for (i = 0; i < all_line.length; i++) {
+                if (i + 1 !== all_line.length) {
+                    document.getElementById("helye").innerHTML += "<span id='szoveg" + i + "'>" + all_line.charAt(i) + "</span>";
+                }
+                if (Number.isInteger(all_line.charAt(i) * 1)) {
+                    pin++;
+                }
+                if (Number.isNaN(all_line.charAt(i) * 1) && pin !== 4) {
+                    pin = 0;
+                } else if (Number.isNaN(all_line.charAt(i) * 1) && pin === 4) {
+                    document.getElementById("szoveg" + (i - 1)).innerHTML = "*";
+                    document.getElementById("szoveg" + (i - 2)).innerHTML = "*";
+                    document.getElementById("szoveg" + (i - 3)).innerHTML = "*";
+                    document.getElementById("szoveg" + (i - 4)).innerHTML = "*";
+                    pin = 0;
+                }
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="center">
+        <h1>Írjon be egy szöveget!</h1>
+        <div>A program a szövegben szereplő PONTOSAN 4 egymást követő számot csillagozza ki.<br> (Nem éz zeneszámot beírni)</div>
+        <br><textarea id="szam" cols='60' rows='8'></textarea><br>
+        <button onclick="codeeeing()">P1N-k0d v4rázsl4t 1ndítás4</button><br><br><br><br><br>
+        <span id="helye"></span>
+</body>
+
+</html>

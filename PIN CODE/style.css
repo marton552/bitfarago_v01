@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(163, 113, 255);
+}
+
+h1 {
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+#szam {
+    width: 70vw;
+    height: 20vh;
+    font-size: 2vh;
+    text-align: center;
+}
+
+#helye {
+    background-color: white;
+    font-size: 2wv;
+}
