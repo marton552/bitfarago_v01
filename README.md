@@ -1,6 +1,6 @@
-Bendzsi: CSS hátterek beillesztése, JS szeparálása a HTML fájltól, +kinézet javítása
-H.Martin: Feladatok: 4, 11, 16, 19 +amit elcseszett szebbé tenni
-P.Márton: Feladatok 1!, 8, 20, + Szépítgetés
+**Bendzsi: CSS hátterek beillesztése, JS szeparálása a HTML fájltól, +kinézet javítása
+**H.Martin: Feladatok: 4, 11, 16, 19 +amit elcseszett szebbé tenni
+**P.Márton: Feladatok 1!, 8, 20, + Szépítgetés
 
 # Bitfaragó Vigyázz 1
 ##### (ez a forduló neve lol)
