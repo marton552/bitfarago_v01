@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(162, 255, 86);
+}
+
+h1 {
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+#szam {
+    width: 70vw;
+    height: 20vh;
+    font-size: 2vh;
+    text-align: center;
+}
+
+#box {
+    background-color: antiquewhite;
+    border: 2px black solid;
+}
+
+span {
+    font-size: 1.5vw;
+}
+
+#gif {
+    width: 20vw;
+}
+
+#table {
+    text-align: center;
+    border: 2px black solid;
+}
+
+table {
+    border: 2px black solid;
+}
+
+.cell {
+    font-size: 2vw;
+    border: 2px black solid;
+    width: 5vw;
+}
