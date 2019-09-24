@@ -52,10 +52,10 @@ Beküldhető feladatok:
 - [x] ** 13. Számolás egész számokkal ** P.MAR
 * * Készítsetek egy oldalt, ami pozitív egész számokat kér be. A bekérés folyamatosan tartsa számon az addig beírt számok összegét, és akkor álljon le, ha az összeg elérte az 1000-t. * *
 
-- [ ] ** 14. Számjegyek összeadása ** P.MAR
+- [x] ** 14. Számjegyek összeadása ** P.MAR
 * * Készítsetek egy függvényt, amely meghatározza a paraméterben kapott szám számjegyeinek összegét. Az oldal egy gombra kattintva kérjen be egy számot, és írja ki a jegyek összegét. * *
 
-- [ ] ** 15. Pin kód cucc ** P.MAR
+- [x] ** 15. Pin kód cucc ** P.MAR
 * * Készítsetek egy weboldalt, ami bekér egy szöveget, amiben lehetnek számjegyek is. A szöveget jelenítse meg úgy, hogy a szövegben a pontosan 4 számjegyből álló számokat titkosítsa (helyettük négy csillag jelenjen meg). * *
 
 - [ ] ** 16. Páros tömb ** H.MAR
@@ -64,7 +64,7 @@ Beküldhető feladatok:
 - [ ] ** 17. Képregény ** BEN + P.MAR
 * * Készítsetek egy honlapot, amin egy képregényt lehet megtekinteni. Az oldal betöltésére jelenjen meg az első kép, majd mindig a képre kattintva töltsön be az új oldal. Legyen lehetőség a visszafele lépésre is. * *
 
-- [ ] ** 18. Gyorsasági játék ** P.MAR
+- [x] ** 18. Gyorsasági játék ** P.MAR
 * * Készítsetek oldalt, ami egy gyorsasági játékot valósít meg. Az oldalon legyen egy táblázat. Az indítás gombra kattintva az oldal várakozzon véletlenszerű ideig (pl 3-5 másodperc), majd jelölje ki a táblázat egyik celláját (szintén véletlenszerűen). A játékosnak ekkor az adott cellára kell kattintani. Amint ez sikerült, az oldal jelenítse meg hogy mennyi idő telt el a kijelölés és a kattintás között. * *
 
 - [ ] ** 19. ITS THE FINAL COULTDOWN ** H.MAR
