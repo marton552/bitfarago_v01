@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(163, 113, 255);
+}
+
+h1 {
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+#szam {
+    width: 15vw;
+    height: 5vh;
+    font-size: 4vh;
+    text-align: center;
+}
+
+span {
+    position: absolute;
+    top: 15vw;
+    font-size: 5vw;
+}
+
+#invisible {
+    display: none;
+}
+
+#img {
+    width: 30vw;
+    top: 20vh;
+    left: 38vw;
+    position: absolute;
+    display: none;
+}
+
+#eredmeny {
+    top: 15vw;
+    font-size: 20vw;
+    text-align: center;
+    display: none;
+}
+
+#tap {
+    top: 35vw;
+    left: 42vw;
+    font-size: 2vw;
+    display: none;
+}
