@@ -1,0 +1,7 @@
+body
+{
+    height: 100vh;
+    background:
+        repeating-linear-gradient(-45deg,rgb(0,0,0) 0%,rgb(6, 158, 0) 0%,rgb(90, 158, 30) 10%, transparent 10%,transparent 22.5%),
+        rgb(20,255,10) repeating-linear-gradient(45deg,rgba(0,0,0,0.5) 0%,rgba(6, 158, 0,0.5) 0%,rgba(0,0,0,0.9) 10%,transparent 10%,transparent 15%)
+}

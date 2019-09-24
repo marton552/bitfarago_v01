@@ -1,0 +1,8 @@
+body
+{
+    height: 100vh;
+    background:
+        linear-gradient(0deg, rgb(79, 0, 124), transparent 4.5%),
+        linear-gradient(-180deg, rgb(79, 0, 124), transparent 4.5%),
+        repeating-radial-gradient(circle farthest-corner at 20px 20px,rgb(0,0,0) 0%,rgb(0, 132, 255) 11%,transparent 4%,transparent 11%);
+}
