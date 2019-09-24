@@ -1,3 +1,7 @@
+Bendzsi: CSS hátterek beillesztése, JS szeparálása a HTML fájltól, +kinézet javítása
+H.Martin: Feladatok: 4, 11, 16, 19 +amit elcseszett szebbé tenni
+P.Márton: Feladatok 1!, 8, 20, + Szépítgetés
+
 # Bitfaragó Vigyázz 1
 ##### (ez a forduló neve lol)
 # HATÁRIDŐ!!! 2019. szeptember 26. (csütörtök) 10:00
@@ -61,7 +65,7 @@ Beküldhető feladatok:
 - [ ] ** 16. Páros tömb ** H.MAR
 * * Készítsetek egy függvényt, ami megkap egy tömböt, kigyűjti belőle a páros számokat, azokat az eredeti sorrendben egy új tömbbe teszi, amivel visszatér. Az oldal generáljon egy 20 elemű tömböt (egészekből), jelenítse meg, majd a függvény segítségével jelenítse meg a páros számokat is. * *
 
-- [ ] ** 17. Képregény ** BEN + P.MAR
+- [x] ** 17. Képregény ** BEN + P.MAR
 * * Készítsetek egy honlapot, amin egy képregényt lehet megtekinteni. Az oldal betöltésére jelenjen meg az első kép, majd mindig a képre kattintva töltsön be az új oldal. Legyen lehetőség a visszafele lépésre is. * *
 
 - [x] ** 18. Gyorsasági játék ** P.MAR
