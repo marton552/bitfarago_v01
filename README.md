@@ -71,7 +71,7 @@ Beküldhető feladatok:
 - [x] ** 18. Gyorsasági játék ** P.MAR
 * * Készítsetek oldalt, ami egy gyorsasági játékot valósít meg. Az oldalon legyen egy táblázat. Az indítás gombra kattintva az oldal várakozzon véletlenszerű ideig (pl 3-5 másodperc), majd jelölje ki a táblázat egyik celláját (szintén véletlenszerűen). A játékosnak ekkor az adott cellára kell kattintani. Amint ez sikerült, az oldal jelenítse meg hogy mennyi idő telt el a kijelölés és a kattintás között. * *
 
-- [ ] ** 19. ITS THE FINAL COULTDOWN ** H.MAR
+- [x] ** 19. ITS THE FINAL COULTDOWN ** H.MAR
 * * Készítsetek egy visszaszámláló honlapot. Lehessen megadni hogy hány másodperces legyen a visszaszámolás, majd elindítani. Az oldal jelezze a hátralévő másodperceket, és ha eléri a 0-t, akkor dobjon fel erről egy üzenetet. * *
 
 - [ ] ** 20. Rajzprogram ** P.MAR
