@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(162, 255, 86);
+    height: 20000px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+#kocka {
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    width: 5vw;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
