@@ -62,7 +62,7 @@ Beküldhető feladatok:
 - [x] ** 15. Pin kód cucc ** P.MAR
 * * Készítsetek egy weboldalt, ami bekér egy szöveget, amiben lehetnek számjegyek is. A szöveget jelenítse meg úgy, hogy a szövegben a pontosan 4 számjegyből álló számokat titkosítsa (helyettük négy csillag jelenjen meg). * *
 
-- [ ] ** 16. Páros tömb ** H.MAR
+- [x] ** 16. Páros tömb ** H.MAR
 * * Készítsetek egy függvényt, ami megkap egy tömböt, kigyűjti belőle a páros számokat, azokat az eredeti sorrendben egy új tömbbe teszi, amivel visszatér. Az oldal generáljon egy 20 elemű tömböt (egészekből), jelenítse meg, majd a függvény segítségével jelenítse meg a páros számokat is. * *
 
 - [x] ** 17. Képregény ** BEN + P.MAR
