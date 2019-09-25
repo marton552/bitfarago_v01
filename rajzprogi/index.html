@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+        var tf = 0;
+        var sor;
+        var oszlop;
+        function start() {
+            sor = document.getElementById("sor").value;
+            oszlop = document.getElementById("oszlop").value;
+            for (i = 1; i <= sor; i++) {
+                document.getElementById("table").innerHTML += "<tr>";
+                for (k = 1; k <= oszlop; k++) {
+                    document.getElementById("table").innerHTML += "<span onmouseup='up()' onmouseover='draw("+i+""+k+")' onmousedown='check(" + i + "" + k + ")' class='cell' id='cell" + i + "" + k + "'>__</span>";
+                }
+                document.getElementById("table").innerHTML += "</tr>";
+            }
+
+        }
+
+        function up(){
+            tf = 0;
+        }
+
+        function check(a) {
+            if(document.getElementById("cell"+a).style.backgroundColor === "black"){
+                document.getElementById("cell"+a).style.backgroundColor = "white";
+                tf = 2;
+            }else{ document.getElementById("cell"+a).style.backgroundColor = "black";
+            tf = 1;}
+        }
+
+        function draw(b){
+            if(tf === 1){
+                document.getElementById("cell"+b).style.backgroundColor = "black";
+            }
+            else if(tf === 2){
+                document.getElementById("cell"+b).style.backgroundColor = "white";
+            }
+        }
+
+    </script>
+</head>
+
+<body onmouseup='up()'>
+    <div id="center">
+        <h1>8bit(paint).faragó</h1>
+        <button onclick="start()" id="gomb">Rajolás!</button><br><br>
+        <span class="a">Sorok száma:</span>
+        <input type="number" value="" id="sor"><br>
+        <span class="a">Oszlopok száma száma:</span>
+        <input type="number" value="" id="oszlop">
+        <table align="center" id="table"></table>
+</body>
+
+</html>
