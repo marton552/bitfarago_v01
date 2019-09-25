@@ -47,7 +47,7 @@ Beküldhető feladatok:
 - [x] ** 10. Legkisebb ** P.MAR
 * * Készítsetek egy programot, amely bekér 4 számot, és kiírja hogy melyik a legkisebb. * *
 
-- [ ] ** 11. Osztók ** H.MAR
+- [x] ** 11. Osztók ** H.MAR
 * * Készítsetek egy programot, amely bekér egy számot, majd megszámolja hogy az adott számnak mennyi osztója van (csak a pozitívak érdekesek). Például a 10-nek 4 van: 1, 2, 5, 10. * *
 
 - [x] ** 12. Tizenöt elemű tömb ** H.MAR **(CSS kell)**
