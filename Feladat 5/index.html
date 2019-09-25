@@ -3,14 +3,61 @@
     <title>5. Feladat - A Bajszos aki nem tud programozni</title>
     <meta charset="utf-8" />
     <script src="script.js" charset="utf-8"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
 
+        body { font-size: 23px; font-family: Arial, Helvetica, sans-serif; }
+        h1 {text-align: center;}
+        #feladat, #result {
+            display: table-cell;
+            width: 40%;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        #result { display: none; border-left: 5px solid black;}
+
+        .cont {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            display: table;
+        }
+
+        button {
+            background-color: #2ecc71;
+            color: white;
+            padding: 10px;
+            border: 0;
+            border-radius: 10px;
+            transition: background-color .2s;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+        }
+
+        input {
+            font-size: 17px;
+            padding: 5px;
+            border: 1px solid #27ae60;
+            border-radius: 10px;
+        }
+
+        #currnum {color: #e74c3c;}
+    </style>
 </head>
-<body>
-    <div id='5feladat'>
-        <h1>5. feladat</h1>
-        <button onclick='otodikf()'>Ötödik feladat</button>
-        <br/>
+<body onload="load();">
+        <h1>5. feladat - A Bajszos aki nem tud programozni</h1>
+    <div class="cont">
+        <div id='feladat'>
+            <p>Kérem az <span id="currnum">1</span>. számot</p>
+            <input type="number" id="num"/>
+            <br/>
+            <button onclick='otodikf();'>Következő szám</button>
+        </div>
+        <div id="result"></div>
     </div>
 </body>
 </html>

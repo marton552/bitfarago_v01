@@ -1,42 +1,32 @@
+var array = [];
 function otodikf() {
-    var array = [];
-    //array.unshift();
-    for (var i = 0; i < 5; i++) {
-      var be = false;
-      while (be == false) {
-        be = getIntFromUser("Kérem az "+(i+1)+". számot.");
-  
-        if(be === false){
-          alert("Hibás beadott adat.");
-        }else array.push(be);
-  
-      }
-    }
-  
-    for (var i = 0; i < array.length; i++) {
-      document.getElementById('5feladat').innerHTML += "<span>"+array[i]+" * 2 = "+(array[i]*2)+"</span><br>";
-    }
-}
-  
-function getIntFromUser(question) {
-    var a;
-    while(true) {
-        if(!a) {
-            swal(question, {
-                content: "input",
-            })
-            .then((be) => {
-                if(be != "" && be != null) {
-                    if(!isNaN(be)) {
-                    if(isInt(be)){
-                        return be;
-                    }else return false;
-                    }else return false;
-                }else return false;
-            });
+    if(document.getElementById("num").value != "") {
+
+        array.push(document.getElementById("num").value);
+        document.getElementById("num").value = "";
+        document.getElementById("currnum").innerHTML = ""+(array.length+1);
+        
+        if(array.length >= 5){
+            document.getElementById('result').innerHTML = "<h2>Eredmény</h2>";
+            document.getElementById('result').style.display = "table-cell";
+            for (var i = 0; i < array.length; i++) {
+                document.getElementById('result').innerHTML += "<span>"+array[i]+" * 2 = "+(array[i]*2)+"</span><br>";
+            }
+
+            array = [];
+            document.getElementById("currnum").innerHTML = ""+(array.length+1);
+
         }
     }
-    
+}
+
+function load() {
+    document.getElementById("num").addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            otodikf();
+        }
+    });
 }
 
 function isInt(n) {
