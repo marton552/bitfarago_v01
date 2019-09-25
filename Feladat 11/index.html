@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>11. Feladat - Bajszos aki nem tud programozni.</title>
+        <script src="script.js" charset="utf-8"></script>
+        <script src="jquery.js" charset="utf-8"></script>
+
+        <style>
+            body {text-align: center; font-size: 23px;}
+            span { font-family: monospace; font-size: 20px;}
+            h3 { margin-top: 60px; font-size: 30px; }
+            .cont { margin: 50px; }
+            button {
+                margin: 10px; padding: 10px;
+                box-shadow:inset 0px 1px 0px 0px #ffffff;
+                background-color:#ffffff;
+                border-radius:6px;
+                border:1px solid grey;
+                cursor:pointer;
+                color:#666666;
+                font-family: Arial;
+                font-size:15px;
+                font-weight:bold;
+                padding:6px 24px;
+                text-decoration:none;
+                text-shadow:0px 1px 0px #ffffff;
+            }
+
+            button:hover {
+	            background-color:#f6f6f6;
+            }
+            button:active {
+                position:relative;
+                top:1px;
+            }
+            input { font-size: 20px; text-align: center;}
+            h1 {font-size: 27px;}
+        </style>
+    </head>
+    <body onload="load();">
+        <h1>11. Feladat - Oszhatóság<br/>A Bajszos aki nem tud programozni</h1>
+        <div class="cont">
+            <p>Kérek egy számot:</p>
+            <input type="number" id="num"/><br/>
+            <button onclick="oszthatosag();">Oszthatóság</button>
+        </div>
+        <div id="osztopanel">
+            <h3 id="szam"></h3>
+            <p id="osztoi"></p>
+            <span id="osztok"></span>
+        </div>
+    </body>
+</html>
