@@ -9,26 +9,71 @@ h1 {
 #center {
     text-align: center;
 }
-#sor{
+
+#sor {
     width: 10vw;
     height: 5vh;
     font-size: 4vh;
 }
-#oszlop{
+
+#oszlop {
     width: 10vw;
     height: 5vh;
     font-size: 4vh;
 }
-.a{
+
+.a {
     font-size: 1.5vw;
 }
 
-#table{
+#table {
     border: 2px black solid;
     user-select: none;
+    width: auto;
 }
-span{
+
+span {
     border: 2px black solid;
     user-select: none;
     background-color: white;
+}
+
+#left {
+    position: absolute;
+    left: 2vw;
+    top: 5vw;
+}
+
+#asd {
+    display: none;
+}
+
+.keret {
+    width: 10vw;
+    height: 18vh;
+    background-color: orange;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.kep {
+    margin: 10px;
+    background-color: rgb(167, 167, 167);
+    line-height: 0.5vw;
+    height: auto;
+}
+
+.white {
+    color: white;
+    display: inline;
+}
+
+.black {
+    color: black;
+    display: inline;
+}
+
+br {
+    line-height: 0%;
 }
