@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>16. Feladat - Bajszos aki nem tud programozni.</title>
+        <script src="script.js" charset="utf-8"></script>
+
+        <style>
+            body {text-align: center; font-size: 24px; font-family: Arial;}
+            span {font-family: monospace;}
+            h1 {font-size: 28px; }
+            div {
+                display: inline-block;
+                width: 40%;
+                margin: 20px;
+            }
+            button {
+                margin: 40px;
+                box-shadow: 0px 1px 0px 0px #1c1b18;
+                background-color: white;
+                border: 1px solid black;
+                cursor: pointer;
+                color: black;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 12px 16px;
+                text-decoration: none;
+                text-shadow: 0px 1px 0px #ffffff;
+            }
+            button:hover {
+                background-color: #ddd;
+            }
+            button:active {
+                position:relative;
+                top:1px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>16. Feladat - Páros tömb<br/>A Bajszos aki nem tud programozni</h1>
+        <button onclick="general();">Generálás</button><br/>
+
+        <div>
+            <p>Eredeti tömb:</p>
+            <span id="eredeti"></span>
+        </div>
+        <div>
+            <p>Kiválogatott tömb:</p>
+            <span id="valogatott"></span>
+        </div>
+
+    </body>
+</html>
