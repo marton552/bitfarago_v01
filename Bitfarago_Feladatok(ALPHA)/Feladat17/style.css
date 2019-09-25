@@ -1,0 +1,26 @@
+div {
+    background: #3d85c6;
+    background: linear-gradient(#3d85c6, #073763);
+    border-radius: 6px;
+    width: 3vw;
+    height: 3vw;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 50px/59px "Open Sans", sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    top: 50vh;
+    position: absolute;
+}
+
+body {
+    background-image: url("1.png");
+    background-position-x: center;
+    background-position-y: 10vh;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#hidden {
+    display: none;
+}

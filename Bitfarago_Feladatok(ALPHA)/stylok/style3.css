@@ -1,0 +1,7 @@
+body
+{
+    height: 100vh;
+    background:
+        linear-gradient(0deg, rgb(1,1,1) 0%,rgb(1,1,1) 13%,transparent 50%,transparent),
+        rgb(0, 50, 60) linear-gradient(90deg, rgba(1,1,1,0.8) 20%, rgba(1,1,1,1) 13%,transparent 25%,transparent 40%);
+}

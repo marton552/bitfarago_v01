@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body onmouseup='up()' onload="load()">
+    <div id="center" class="doboz">
+        <h1>8bit(paint).faragó</h1>
+        <button onclick="start()" id="gomb">Rajolás!</button><br><br>
+        <span class="a">Sorok száma:</span>
+        <input type="number" value="" id="sor"><br>
+        <span class="a">Oszlopok száma száma:</span>
+        <input type="number" value="" id="oszlop"><br>
+        <button id="asd" onclick="save()">Mentés</button>
+        <table align="center" id="table"></table>
+        <div id="left">
+
+        </div>
+</body>
+
+</html>

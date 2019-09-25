@@ -1,0 +1,106 @@
+body 
+{
+    height: 100vh;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    margin: 4.8%;
+    background:
+        linear-gradient(45deg, rgb(76, 0, 255), transparent),
+        repeating-linear-gradient(45deg, rgb(183,0,255) 0%,rgb(183,0,255) 5%, transparent 5%,transparent 10%,rgb(183,0,255) 0%,rgb(183,0,255) 11%,transparent 11%,transparent 13%),
+        rgb(216,118,255) repeating-linear-gradient(-45deg ,rgba(183,0,255,0.5) 0%,rgba(183,0,255,0.5) 5%,transparent 5%,transparent 10%);
+}
+
+h1 , h2
+{
+    text-align: center;
+}
+
+#cage 
+{
+    opacity: 0.99;
+    background-color: rgb(29,29,20);
+    box-shadow: 8px 8px 20px black;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+h1, h2.underLine
+{
+    border-bottom: 0.1px solid whitesmoke;
+    border-bottom-width: 10px;
+}
+
+.Position
+{
+    margin-left: 0%;
+    margin-right: 80%;
+}
+
+.infoText
+{
+    text-align: center;
+    font-size: 3vh;
+}
+
+div>div>img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 55%;
+}
+div>div>p
+{
+    font-family: monospace;
+    text-align: center;
+    font-size: 2.2vh;
+}
+
+button
+{
+    background-color: black;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-family: Verdana;
+    border-color: 0.2px solid darkslategray;
+}
+
+.Side
+{
+    float: left;
+    overflow: hidden;
+}
+
+li
+{
+    list-style-type: none;
+    background-color: black;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-family: Verdana;
+    margin: 10px;
+    
+}
+
+li a 
+{
+    color: whitesmoke;
+    text-align: center;
+    display: block;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: rgb(70, 63, 63);
+    border-radius: 10px;
+}
+
+li a:active
+{
+    background-color: rgb(77, 156, 11);
+    border-radius: 10px;
+}

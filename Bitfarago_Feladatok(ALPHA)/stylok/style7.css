@@ -1,0 +1,7 @@
+body
+{
+    height: 100vh;
+    background:
+        linear-gradient(-45deg, #5E9732 20%, #C9FAA3 5%,#5E9732 10%,#9CDB6C 3%,#5E9732 40%,#2C530E 34.4%, #060E00 15.4%,#2C530E 16.5%,#5E9732);
+        
+}

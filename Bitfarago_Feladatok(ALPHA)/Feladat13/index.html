@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Számoljunk 1000-ig!</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></scriptsrc></script>
+</head>
+
+<body onload="load()">
+    <div id="center">
+        <h1>Írjon be számokat!</h1>
+        <div>A sáv jelzi hogy mennyit kell még beírni 1000-ig. Alul gyűjti a számokat amiből törölni is tud, az X-re kattintva.</div>
+        <br><input type="number" value="" id="szamok"><br>
+        <button onclick="add();">Küldés</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="howmany">0</div>
+    <div id="sav">
+        <div id="toltelek"></div>
+    </div>
+    <br>
+    <div id="plus"></div>
+    <div id="count">0</div>
+</body>
+
+</html>
