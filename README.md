@@ -21,7 +21,7 @@ Beküldhető feladatok:
 - [x] ** 3. Akkori aktuális idő! ** H.MAR
 * * Készítsetek egy oldalt, ami betöltéskor megjeleníti az akkori aktuális időt. Legyen az oldalon egy gomb, amit megnyomva az idő frissül. * *
 
-- [ ] ** 4. Sakktábla ** H.MAR
+- [x] ** 4. Sakktábla ** H.MAR
 * * Készítsetek egy oldalt, ahol egy gomb lenyomására a alatt megjelenik egy sakktábla képe. * *
 
 
