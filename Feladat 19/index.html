@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="script.js" charset="utf-8"></script>
+    <title>19. Feladat - Bajszos aki nem tud programozni.</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial;
+            font-size: 24px;
+        }
+
+        button {
+            padding: 8px;
+            margin: 10px;
+            cursor: pointer;
+            color: white;
+            border: 1px solid grey;
+        }
+
+        #time {
+            font-size: 100px;
+            font-weight: bold;
+            font-family: monospace;
+        }
+
+        #milli {
+            font-size: 25px;
+            font-weight: 200;
+        }
+        
+        input {
+            text-align: right;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>Adja meg hány másodperctől számoljon vissza az időzítő:</p>
+    <input type="number" id="num"/> <span>másodperc<span><br/>
+    <button style="background: #3498db;" onclick="setTime();">Beállítás</button>
+    <button style="background: #2ecc71;" onclick="startTimer();">Indítás</button>
+    <button style="background: #e74c3c;" onclick="stopTimer();">Leállítás</button>
+    <p id="time">0<span id="milli">000</span></p>
+</body>
+</html>
