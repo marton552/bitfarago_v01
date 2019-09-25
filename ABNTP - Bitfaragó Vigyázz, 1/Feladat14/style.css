@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(163, 113, 255);
+}
+
+h1 {
+    text-align: center;
+}
+
+#szam {
+    width: 15vw;
+    height: 5vh;
+    font-size: 4vh;
+    text-align: center;
+}
+#sorozat{
+    color: whitesmoke;
+}
+
+span {
+    position: absolute;
+    top: 15vw;
+    font-size: 5vw;
+}
+
+#invisible {
+    display: none;
+}
+
+#img {
+    width: 30vw;
+    top: 20vh;
+    left: 38vw;
+    position: absolute;
+    display: none;
+}
+
+#cont
+    {
+        text-align: center;
+        border: 2px solid black;
+        background-color: rgb(10,10,10);
+        border-radius: 50px;
+        color: whitesmoke;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    button{
+        border: 1px solid green;
+        background-color: rgb(40,40,40);
+        color: whitesmoke;
+        font-family: monospace;
+        border-radius: 4px;
+        width: 10%;
+    }
+    button:active{
+        background-color: rgb(27, 146, 3);
+    }
+
+#eredmeny {
+    top: 15vw;
+    font-size: 20vw;
+    text-align: center;
+    display: none;
+}
+
+#tap {
+    top: 35vw;
+    left: 42vw;
+    font-size: 2vw;
+    display: none;
+}

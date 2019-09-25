@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Képregény</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+        function ch(asd) {
+            var hid = document.getElementById("hidden").innerHTML * 1
+            if (asd === 1) {
+                hid++;
+                if (hid === 18) hid = 0;
+            } else {
+                hid--;
+                if (hid === 0) hid = 17;
+            }
+            document.getElementById("hidden").innerHTML = hid;
+            document.body.style.backgroundImage = "url(" + hid + ".png)";
+        }
+    </script>
+</head>
+
+<body id="kep">
+    <div onclick="ch(-1)">
+        <</div>
+            <div onclick="ch(1)" style="right: 10px">
+                ></div>
+            <div id="hidden">1</div>
+
+</body>
+
+</html>

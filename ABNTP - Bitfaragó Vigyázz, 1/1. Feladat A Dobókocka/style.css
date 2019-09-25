@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(162, 255, 86);
+    height: 20000px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#kocka {
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    width: 5vw;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+    #cont
+        {
+            text-align: center;
+            border: 2px solid black;
+            background-color: rgb(10,10,10);
+            border-radius: 50px;
+            color: whitesmoke;
+            margin-left: 20%;
+            margin-right: 20%;
+            opacity: 0.75%;
+        }

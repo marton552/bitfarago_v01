@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body onload="load()">
+    <div id="center">
+        <h1 class="doboz">Gyorsasági játék (kreatív cím)</h1>
+        <div class="ratata">A játék elindítása után, random felvillan egy cella. Minnél gyorsabban kattintson rá!</div>
+        <div id="box">
+            <span>Nehézségi szint:</span><br>
+            <span>Könnyű</span><input onchange="gif()" id="lvl" type="range" name="points" min="3" max="15"><span>Nehéz</span>
+        </div><br>
+        <button onclick="start()" id="gomb">Kezdés</button><br><br>
+        <img src="https://media.giphy.com/media/KFt2DA9T82paOA1Yci/giphy.gif" id="gif" alt="">
+        <table align="center" id="table"></table>
+</body>
+
+</html>

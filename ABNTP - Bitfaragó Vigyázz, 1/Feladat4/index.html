@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <meta charset="utf8" />
+    <script src="jquery.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+
+    <title>4. Feladat - A Bajszos nem tud programozni</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Times New Roman';
+        }
+        
+        button {
+            text-align: center;
+            background-color: rgb(240, 218, 181);
+            transition: background-color .2s;
+            color: rgb(181, 135, 99);
+            border: 2px solid rgb(181, 135, 99);
+            font-size: 20px;
+            padding: 10px 15px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: rgb(220, 198, 161);
+        }
+        
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            background: rgb(181, 135, 99);
+            border: 2px solid rgb(181, 135, 99);
+        }
+        
+        td {
+            width: 70px;
+            height: 70px;
+        }
+        
+        tr:nth-child(odd) td:nth-child(even),
+        tr:nth-child(even) td:nth-child(odd) {
+            background: rgb(240, 218, 181);
+        }
+        
+        h1 {
+            color: rgb(151, 105, 69);
+        }
+        
+        #chessboard {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>4. Feladat - Sakktábla<br>A Bajszos aki nem tud programozni</h1>
+    <button onclick="generate();">Sakktábla generálás</button>
+    <div id="chessboard">
+
+    </div>
+</body>
+
+</html>
