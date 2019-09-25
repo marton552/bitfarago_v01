@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+        var v0;
+        var szog;
+        var sinus;
+        var cosinu;
+        var sec = 0;
+        var g = 4.9;
+        var play;
+        var suly = 1;
+
+        function dobas() {
+            //Math.sin(60* (Math.PI/180))
+            v0 = document.getElementById("v0").value * 1;
+            szog = document.getElementById("szog").value * 1;
+            sinus = Math.sin(szog * (Math.PI / 180));
+            cosinus = Math.cos(szog * (Math.PI / 180));
+            play = setInterval(el, 10);
+        }
+
+        function el() {
+            sec += 0.1;
+            document.getElementById("ball").style.left = v0 * sec * cosinus + "px";
+            document.getElementById("ball").style.bottom = v0 * sec * sinus - ((suly * 5) + g) * (sec * sec) + "px";
+            if (document.getElementById("ball").style.bottom.replace("px", "") * 1 < -1) {
+                clearInterval(play);
+                document.getElementById("again").style.display = "inline";
+            }
+        }
+
+        function esd(a1) {
+            if (a1 === 1) {
+                suly = 1;
+                document.getElementById("eszk").innerHTML = "Súlytalan labda";
+                document.getElementById("ball").src = "http://pngimg.com/uploads/football/football_PNG52796.png";
+            } else if (a1 === 2) {
+                suly = 10;
+                document.getElementById("eszk").innerHTML = "Könnyű súly";
+                document.getElementById("ball").src = "http://oer.nios.ac.in/wiki/images/thumb/6/6f/Weight.png/1024px-Weight.png";
+            } else if (a1 === 3) {
+                suly = 100;
+                document.getElementById("eszk").innerHTML = "A csapatkapitány";
+                document.getElementById("ball").src = "https://i.imgur.com/c50kAj8.png";
+            } else if (a1 === 4) {
+                suly = 600;
+                document.getElementById("eszk").innerHTML = "Afrikai elefánt";
+                document.getElementById("ball").src = "http://pngimg.com/uploads/elephants/elephants_PNG18769.png";
+            } else if (a1 === 5) {
+                suly = 6000000000000000000000000;
+                document.getElementById("eszk").innerHTML = "A Föld";
+                document.getElementById("ball").src = "https://purepng.com/public/uploads/large/purepng.com-earthearthplanetglobethird-planet-from-the-sun-1411526987553hrjje.png";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="center">
+        <h1>Ferde hajlamú hajítás</h1>
+        <button onclick="dobas()" id="gomb">Dobás!</button><br><br>
+        <span class="a">Sebesség:</span>
+        <input type="number" value="" id="v0"><br>
+        <span class="a">Szög:</span>
+        <input type="number" value="" id="szog"><br>
+
+        <div>Eszköz:
+            <span id="eszk">Súlytalan labda</span>
+        </div>
+        <button onclick="location.reload()" id="again">Újra!</button>
+
+        <img src="http://pngimg.com/uploads/football/football_PNG52796.png" id="ball">
+
+        <div onclick="esd(1)" style="top: 10vw" class="keret"><img src="http://pngimg.com/uploads/football/football_PNG52796.png">
+            <div>Súlytalan labda</div>
+            <div>0kg</div>
+        </div><br>
+
+        <div onclick="esd(2)" style="top: 20vw" class="keret"><img src="http://oer.nios.ac.in/wiki/images/thumb/6/6f/Weight.png/1024px-Weight.png">
+            <div>Könnyű súly<br>10kg</div>
+        </div><br>
+
+        <div onclick="esd(3)" style="top: 30vw" class="keret"><img src="https://i.imgur.com/c50kAj8.png">
+            <div>A csapatkapitány<br>100kg</div>
+        </div><br>
+
+        <div onclick="esd(4)" style="top: 40vw" class="keret"><img src="http://pngimg.com/uploads/elephants/elephants_PNG18769.png">
+            <div>Afrikai elefánt<br>6,000kg</div>
+        </div><br>
+
+        <div onclick="esd(5)" style="top: 50vw" class="keret"><img src="https://purepng.com/public/uploads/large/purepng.com-earthearthplanetglobethird-planet-from-the-sun-1411526987553hrjje.png">
+            <div>A Föld<br>6,000,000,000, 000,000,000,000,000kg</div>
+        </div><br>
+    </div>
+</body>
+
+</html>
