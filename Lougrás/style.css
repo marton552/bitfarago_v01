@@ -1,0 +1,252 @@
+body {
+    height: 100vh;
+    background: linear-gradient(-90deg, rgb(223, 119, 0), transparent 50%), repeating-linear-gradient(180deg, rgb(0, 0, 0) 10%, rgb(255, 155, 0) 10%, transparent 20%, transparent 7%), rgb(182, 97, 0) repeating-linear-gradient(90deg, rgba(255, 150, 0, 0.9) 4%, rgba(0, 0, 0, 0.9) 5%, transparent 10%, transparent 6%);
+}
+
+h1 {
+    text-align: center;
+}
+
+.doboz {
+    border: 2px solid black;
+    background-color: rgb(10, 10, 10);
+    border-radius: 50px;
+    color: whitesmoke;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#center {
+    text-align: center;
+}
+
+#szam {
+    width: 70vw;
+    height: 20vh;
+    font-size: 2vh;
+    text-align: center;
+}
+
+#str {
+    font-size: 2vw;
+    background-color: red;
+    width: 25vw;
+    height: 7vh;
+    margin-top: 2vh;
+    border: 1px black solid;
+    border-radius: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 2vh;
+    display: none;
+}
+
+#str:hover {
+    background-color: rgb(177, 0, 0);
+}
+
+.ir {
+    background-color: gold;
+    width: 10vw;
+    height: 7vh;
+    margin-top: 2vh;
+    border: 1px black solid;
+    border-radius: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.ir:hover {
+    background-color: rgb(219, 179, 0);
+}
+
+#irany {
+    font-size: 2vw;
+    display: none;
+}
+
+#box {
+    background-color: green;
+    border: 0.5vw black solid;
+    border-radius: 5vw;
+    top: 28vh;
+    position: absolute;
+    font-size: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    left: 28vw;
+}
+
+#box2 {
+    z-index: -1;
+    background-color: green;
+    border: 0.5vw black solid;
+    border-radius: 5vw;
+    top: 5vh;
+    position: absolute;
+    font-size: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    left: 28vw;
+    visibility: hidden;
+}
+
+.title1 {
+    background-color: aqua;
+    font-size: 2vw;
+    width: 30vw;
+    margin-top: 2vh;
+    border: 0.5px black solid;
+    border-radius: 0.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.mezo {
+    background-color: rgb(255, 166, 0);
+    width: 40vw;
+    height: 7vh;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#mez0 {
+    height: 12vh;
+}
+
+#minus {
+    font-size: 3vw;
+    position: absolute;
+    left: 17vw;
+}
+
+#xx {
+    font-size: 3vw;
+    position: relative;
+}
+
+#plus {
+    font-size: 3vw;
+    position: absolute;
+    left: 26vw;
+}
+
+#easy {
+    font-size: 3vw;
+    background-color: white;
+    width: 40vw;
+    height: 7vh;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 0.5px black solid;
+    border-radius: 0.5vw;
+}
+
+#hard {
+    margin-left: 3vw;
+    font-size: 3vw;
+    background-color: white;
+    width: 40vw;
+    height: 7vh;
+    margin-top: 2vh;
+    margin-right: auto;
+    text-align: center;
+    border: 0.5px black solid;
+    border-radius: 0.5vw;
+}
+
+.plw {
+    background-color: rgb(255, 255, 255);
+    border: 2px black solid;
+    border-radius: 10vw;
+    font-size: 2.5vw;
+}
+
+#now {
+    font-size: 2vw;
+    background-color: red;
+    width: 25vw;
+    height: 7vh;
+    margin-top: 2vh;
+    border: 1px black solid;
+    border-radius: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 2vh;
+    display: none;
+}
+
+#now:hover {
+    background-color: rgb(177, 0, 0);
+}
+
+.kicsi {
+    font-size: 1vw;
+}
+
+#play {
+    background-color: rgb(255, 136, 0);
+    border: 2px black solid;
+    border-radius: 5vw;
+}
+
+#play:hover {
+    cursor: grab;
+}
+
+span {
+    font-size: 1.5vw;
+}
+
+#gif {
+    width: 20vw;
+}
+
+#table {
+    text-align: center;
+    border: 2px black solid;
+    background-color: white;
+}
+
+.ratata {
+    font-family: monospace;
+    color: whitesmoke;
+}
+
+table {
+    border: 2px black solid;
+}
+
+.cell {
+    border: 2px black solid;
+}
+
+#a {
+    background-color: orange;
+}
+
+#b {
+    background-color: aqua;
+}
+
+#c {
+    background-color: greenyellow;
+}
+
+#d {
+    background-color: grey;
+}

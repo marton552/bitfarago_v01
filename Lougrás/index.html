@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Lóugrás</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body onkeypress="up(event)" onkeydown="ev(event)" onkeyup="setTimeout(rounds,100)">
+    <div id="center">
+        <div id="box">
+            <div onclick="start()">Huszárvándorlás</div>
+            <div class="kicsi">-Készítette A Bajszos nem tud programozni csapat-<br><br></div>
+            <div onclick="play();" id="play">
+                <div id="pl">Play!</div>
+
+                <div id="irany">Állítsa be az irányítást!
+                    <div class="kicsi">Kattintson a nevére, majd üssön le egy billentyűt<br>(Ha elütötte, tudja módosítani)</div>
+                    <div onclick="fel1()" id="fel" class="ir">Fel</div>
+                    <div onclick="bal1()" id="bal" class="ir">Balra</div>
+                    <div onclick="jobb1()" id="jobb" class="ir">Jobbra</div>
+                    <div onclick="le1()" id="le" class="ir">Le</div>
+                </div>
+                <div onclick="szelesegset()" id="str">Tovább</div>
+            </div>
+        </div><br>
+        <div id="box2">
+            <div>Állítsa be a tábla méreteit<br>és a játékos kinézetét</div>
+            <div>
+                <div class="title1">
+                    Tábla mérete:
+                </div>
+                <div id="mez1" class="mezo">
+                    <span onclick="minus()" id="minus">◄</span>
+                    <span id="xx">5x5</span>
+                    <span onclick="plus()" id="plus">►</span>
+                </div>
+            </div>
+            <div>
+                <div class="title1">
+                    Nehézségi szint:
+                </div>
+                <div class="mezo">
+                    <span onclick="easy()" id="easy">Könnyű</span><span onclick="hard()" id="hard">Nehéz</span>
+                </div>
+            </div>
+            <div>
+                <div class="title1">
+                    Játékos kinézete:
+                </div>
+                <div class="mezo" id="mez0">
+                    <span onclick="a('a')" id="a" class="plw">__</span>
+                    <span onclick="a('b')" id="b" class="plw">__</span>
+                    <span onclick="a('c')" id="c" class="plw">__</span>
+                    <span onclick="a('d')" id="d" class="plw">__</span>
+                </div>
+            </div>
+            <div onclick="start()" id="now">Kezdés</div>
+        </div>
+        <table align="center" id="table"></table>
+</body>
+
+</html>
